@@ -14,6 +14,10 @@ BOOL isEnabled() {
 	return isDND;
 }
 
+BOOL getStateFast() {
+	return isDND;
+}
+
 void setState(BOOL enabled) {
 	[bbGateway setBehaviorOverrideStatus:enabled];
 }
