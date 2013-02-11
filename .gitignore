@@ -2,4 +2,7 @@
 *.deb
 *DS_Store*
 *.swp
+Makefile
+control
+Themes
 
