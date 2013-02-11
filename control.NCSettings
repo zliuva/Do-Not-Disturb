@@ -1,0 +1,9 @@
+Package: com.softboysxp.donotdisturb-ncsettings
+Name: Do Not Disturb (SBSettings Toggle)
+Depends: sbsettings,firmware (>= 6.0.0)
+Version: 1.0.0
+Architecture: iphoneos-arm
+Description: Do Not Disturb Toggle for NCSettings
+Maintainer: softboysxp
+Author: softboysxp
+Section: Addons (NotificationCenter)
