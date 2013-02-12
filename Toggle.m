@@ -28,7 +28,7 @@ void setState(BOOL enabled) {
 	/**
 	 * ugly fix for when toggle is inside NotificationCenter
 	 * somehow the icon disappears when NC is closed
-	 * so wait reset the icon (must disable then enable)
+	 * so reset the icon (must disable then enable)
 	 * magical number 1 corresponds to "quiet" icon
 	 */
 	if (enabled) {
